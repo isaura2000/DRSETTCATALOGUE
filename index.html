@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue Produits - DR Sett</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      color: #2e3d49;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 1.5em;
+      text-align: center;
+    }
+    header img {
+      max-width: 180px;
+    }
+    h1 {
+      margin: 0.5em 0;
+      color: #2e8b57;
+      font-size: 2em;
+    }
+    .note {
+      text-align: center;
+      padding: 1em;
+      background-color: #e6f4f1;
+      color: #2e3d49;
+      font-size: 0.95em;
+    }
+    .catalogue {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .categorie {
+      margin-bottom: 40px;
+    }
+    .categorie h2 {
+      color: #2e8b57;
+      border-bottom: 2px solid #2e8b57;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    .produits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .produit {
+      border: 1px solid #cce5e0;
+      border-radius: 12px;
+      padding: 20px;
+      background-color: #f7fdfc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .produit h3 {
+      margin-top: 0;
+      color: #006494;
+    }
+    .produit img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .produit p {
+      margin: 0.5em 0;
+    }
+    .commande-btn {
+      display: inline-block;
+      background-color: #006494;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin: 30px auto;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5em;
+      background-color: #f0fbfa;
+      color: #2e8b57;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://docteursett.com/wp-content/uploads/2023/06/logo-DRSett.svg" alt="Logo DR Sett">
+    <h1>Catalogue Produits DASRI</h1>
+  </header>
+  <section class="note">
+    <p>Les prix sont hors taxe. Pour une commande importante, veuillez demander un devis personnalisé.</p>
+  </section>
+  <main class="catalogue">
+    <section class="categorie">
+      <h2>Cartons DASRI</h2>
+      <div class="produits">
+        <div class="produit">
+          <img src="https://docteursett.com/catalogue/embalnet-25L.jpg" alt="Carton 25L">
+          <h3>Carton 25L</h3>
+          <p>Prix : 3 200 FCFA HT</p>
+        </div>
+        <div class="produit">
+          <img src="https://docteursett.com/catalogue/embalnet-50L.jpg" alt="Carton 50L">
+          <h3>Carton 50L</h3>
+          <p>Prix : 4 000 FCFA HT</p>
+        </div>
+      </div>
+    </section>
+    <section class="categorie">
+      <h2>Conteneurs à aiguilles</h2>
+      <div class="produits">
+        <div class="produit"><h3>Conteneur 5L</h3><p>Prix : 4 500 FCFA HT</p></div>
+        <div class="produit"><h3>Conteneur 2L</h3><p>Prix : 3 200 FCFA HT</p></div>
+        <div class="produit"><h3>Conteneur 1.1L</h3><p>Prix : 2 500 FCFA HT</p></div>
+        <div class="produit"><h3>Conteneur 0.45L</h3><p>Prix : 2 500 FCFA HT</p></div>
+      </div>
+    </section>
+    <section class="categorie">
+      <h2>Sachets DASRI</h2>
+      <div class="produits">
+        <div class="produit"><h3>Sachet 50L (pack de 20)</h3><p>Prix : 5 400 FCFA HT</p></div>
+        <div class="produit"><h3>Sachet 100L (pack de 25)</h3><p>Prix : 14 500 FCFA HT</p></div>
+      </div>
+    </section>
+    <section class="categorie">
+      <h2>Bacs à pédales</h2>
+      <div class="produits">
+        <div class="produit"><h3>Bac 15L</h3><p>Prix : 25 000 FCFA HT</p></div>
+        <div class="produit"><h3>Bac 45L</h3><p>Prix : 40 000 FCFA HT</p></div>
+        <div class="produit"><h3>Bac 60L</h3><p>Prix : 55 000 FCFA HT</p></div>
+        <div class="produit"><h3>Bac 120L</h3><p>Prix : 70 000 FCFA HT</p></div>
+        <div class="produit"><h3>Bac 240L</h3><p>Prix : 80 000 FCFA HT</p></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a class="commande-btn" href="https://forms.gle/nHbM6P5uuxE8nUBo7" target="_blank">Commander</a>
+    <p>DR Sett - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
